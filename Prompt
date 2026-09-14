@@ -1,0 +1,4 @@
+I want to develop an Android App to help me track and remind me about my work. I think I will need the following screens
+1. Screen to enter my customer information like: Name, Phone, Address, and other details
+2. Screen to create a work order. I can select the customer, title, optional description, date, and work items. Work item should be list of stuff I need to charge the customer for. It should include name, price, and quantity. It should has calculate all cost automatically. I can also add payments that the customer made to that work item. The payment should be deducted from the all amount due and shows me the remaining. I should have logs for payments as well.
+3. The main screen should show the work orders by nearest date. The list should show the order title, customer name, date, the amount still due, and amount of items still remaining. Clicking the work order, I can modify anything. I can also mark work items as done.
