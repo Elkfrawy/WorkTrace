@@ -15,3 +15,4 @@
 local.properties
 /scratch/
 *.png
+!docs/images/*.png
