@@ -63,13 +63,6 @@ class ReminderBroadcastReceiver : BroadcastReceiver() {
                         val message = "You have ${upcomingOrders.size} work order(s) scheduled: $orderTitles$countText."
 
                         NotificationHelper.showNotification(context, title, message)
-                    } else {
-                        // Send daily digest status notification
-                        NotificationHelper.showNotification(
-                            context = context,
-                            title = "WorkTrace Daily Reminder",
-                            message = "No pending work orders scheduled for today or tomorrow."
-                        )
                     }
 
                     // Reschedule for next day
